@@ -3,15 +3,11 @@ export default class SceneMain extends Phaser.Scene {
     super('SceneMain');
   }
 
-  preload() {
-
-  }
+  preload() {}
 
   create() {
     console.log('created');
   }
 
-  update() {
-
-  }
-} 
+  update() {}
+}
