@@ -11,5 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "phaser": "^3.22.0"
+  },
+  "devDependencies": {
+    "parcel-plugin-static-files-copy": "^2.3.1"
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
   }
 }
